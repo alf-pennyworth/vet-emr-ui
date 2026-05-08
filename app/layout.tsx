@@ -19,8 +19,9 @@ export default function RootLayout({
           <div className="flex items-center justify-between max-w-7xl mx-auto">
             <h1 className="text-xl font-bold tracking-tight">VetVoice EMR</h1>
             <nav className="flex gap-4 text-sm text-muted-foreground">
-              <span className="font-medium text-foreground">Patients</span>
+              <Link href="/" className="hover:text-foreground">Patients</Link>
               <Link href="/onboarding" className="hover:text-foreground">Onboarding</Link>
+              <Link href="/telemedicine" className="hover:text-foreground">Telemedicine</Link>
               <span className="cursor-pointer hover:text-foreground">Appointments</span>
               <span className="cursor-pointer hover:text-foreground">Inventory</span>
               <span className="cursor-pointer hover:text-foreground">Settings</span>
